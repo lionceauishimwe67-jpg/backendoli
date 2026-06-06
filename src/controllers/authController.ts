@@ -56,7 +56,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
       role: user.role
     },
     secret,
-    { expiresIn: getJwtExpiresIn() }
+    { expiresIn: getJwtExpiresIn() as any }
   );
 
   return res.json({
@@ -325,7 +325,7 @@ export const registerTeacher = asyncHandler(async (req: Request, res: Response) 
         teacherId: teacherId
       },
       secret,
-      { expiresIn: getJwtExpiresIn() }
+      { expiresIn: getJwtExpiresIn() as any }
     );
 
     return res.status(201).json({
