@@ -44,6 +44,7 @@
     "sqlite": "^4.2.1",
     "sqlite3": "^5.1.6",
     "tesseract.js": "^7.0.0",
+    "typescript": "^5.9.3",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
@@ -61,7 +62,6 @@
     "@types/pdf-parse": "^1.1.5",
     "@types/pdfmake": "^0.3.2",
     "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.3"
+    "ts-node-dev": "^2.0.0"
   }
 }
